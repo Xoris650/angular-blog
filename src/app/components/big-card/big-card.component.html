@@ -4,7 +4,7 @@
             height="200px" width="auto" alt="">
     </div>
     <div class="big-card__title">
-        <h1><a>{{ cardTitle }}</a></h1>
+        <h1><a [routerLink]="['content', Id]">{{ cardTitle }}</a></h1>
     </div>
     <div class="big-card__description">
         <p><a>{{ cardDescription }}</a></p>
