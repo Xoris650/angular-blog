@@ -1,16 +1,12 @@
 <div class="container__big-card">
     <div class="big-card__photo">
-        <img src= "https://blog.iprocess.com.br/wp-content/uploads/2021/11/placeholder.png"
+        <img src= "{{ photoCover }}"
             height="200px" width="auto" alt="">
     </div>
     <div class="big-card__title">
-        <h1><a href="#">PLACEHOLDER</a></h1>
+        <h1><a>{{ cardTitle }}</a></h1>
     </div>
     <div class="big-card__description">
-        <p><a href="">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu imperdiet mauris, a blandit arcu. Nam
-            justo nisl, maximus in lorem sed, pretium dapibus odio. Nullam venenatis risus eros, a convallis lectus
-            pretium et. Morbi ultrices diam neque, et pellentesque massa scelerisque et. Integer nulla mauris, accumsan
-            sit amet nunc vitae, commodo rhoncus augue. Morbi a placerat odio.</a></p>
+        <p><a>{{ cardDescription }}</a></p>
     </div>
 </div>
